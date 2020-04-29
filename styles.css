@@ -1,0 +1,14 @@
+#divGrid{
+    width: 700px;
+    height: 700px;
+    display: grid;
+    grid-template-columns: repeat(16, 1fr);
+    grid-template-rows: repeat(16, 1fr);
+}
+
+.divInGrid{
+    background-color:white;
+    border:1px solid black;
+    margin-left:-1px;
+    margin-bottom:-1px;
+}
